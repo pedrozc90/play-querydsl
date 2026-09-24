@@ -1,0 +1,13 @@
+package models;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
+public class Book {
+    @Id public Long id;
+
+    public String title;
+
+    public String isbn;
+}

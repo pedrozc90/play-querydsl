@@ -1,0 +1,9 @@
+> compile
+$ exists target/src_managed/main/querydsl/models/QBook.java
+$ exists target/classes/models/QBook.class
+
+# editing an entity regenerates its Q class; sleep so the modification time changes
+$ sleep 1000
+$ copy-file changes/Book.java app/models/Book.java
+> compile
+> check

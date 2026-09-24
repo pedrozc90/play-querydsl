@@ -1,0 +1,4 @@
+# generates Q sources without compiling anything
+> queryDSLGenerate
+$ exists target/src_managed/main/querydsl/models/QBook.java
+$ absent target/classes/models/Book.class

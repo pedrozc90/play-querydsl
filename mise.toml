@@ -1,0 +1,5 @@
+[tools]
+java = "temurin-8"
+# launcher only; the sbt version comes from project/build.properties
+sbt = "1.3.13"
+scalafmt = "3.11.5"

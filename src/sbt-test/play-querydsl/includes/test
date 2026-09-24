@@ -1,0 +1,3 @@
+> compile
+$ exists target/src_managed/main/querydsl/models/included/QBook.java
+$ absent target/src_managed/main/querydsl/models/other/QOther.java
